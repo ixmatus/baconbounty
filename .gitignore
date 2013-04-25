@@ -5,3 +5,23 @@ cabal-dev
 *.chi
 *.chs.h
 .virthualenv
+syntax: glob
+
+TAGS
+
+.vagrant
+_site
+_cache
+.hsenv*
+dist*
+.ghci
+site_key.txt
+log/*
+*.cabal
+
+rsync.log
+
+*.hi
+*.o
+
+site

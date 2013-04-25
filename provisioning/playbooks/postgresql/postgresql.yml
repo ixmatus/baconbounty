@@ -1,0 +1,27 @@
+# Install and configure postgresql
+- hosts: vhaskell
+  sudo: yes
+  sudo_user: postgres
+  gather_facts: no
+
+  vars:
+    dbname: vhaskell
+    dbuser: vhaskell
+    dbpassword: secret
+
+  tasks:
+  
+  - name: create db
+    action: postgresql_db db=$dbname template=template0 encoding=UTF-8
+  
+  - name: create db user
+    action: postgresql_user db=$dbname password=$dbpassword name=$dbuser priv=ALL
+  
+  - name: create postgres hba conf
+    action: template src=./templates/pg_hba.conf dest=/etc/postgresql/9.1/main/pg_hba.conf
+    notify:
+        - restart postgres
+  
+  handlers:
+  - name: restart postgres
+    action: service name=postgresql state=restarted

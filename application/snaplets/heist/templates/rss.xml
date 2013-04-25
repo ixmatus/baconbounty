@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>pspringmeyer - All posts</title>
+    <link href="http://ixmat.us/rss.xml" rel="self" />
+    <link href="http://ixmat.us" />
+    <id>http://ixmat.us/rss.xml</id>
+    <author>
+        <name>Parnell Springmeyer</name>
+        <email>ixmatus@gmail.com</email>
+    </author>
+    <updated>Unknown</updated>
+    
+</feed>

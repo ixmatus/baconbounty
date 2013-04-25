@@ -1,0 +1,20 @@
+# Make sure cabal is updated!
+- hosts: vhaskell
+  gather_facts: no
+  
+  vars:
+    cabalversion: 1.16.0.3
+  
+  tasks:
+  - name: update cabal
+    action: shell cabal update
+  
+  # This usually takes forever so let's control it a little bit
+  - name: get cabal version
+    action: shell export PATH=/home/vagrant/.cabal/bin:$PATH && cabal --version | grep "$cabalversion"
+    register: cabalv
+    ignore_errors: true
+  
+  - name: update cabal-install
+    action: shell cabal install cabal-install
+    when_failed: $cabalv

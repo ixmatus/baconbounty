@@ -1,0 +1,29 @@
+# Install and configure supervisord
+- hosts: vhaskell
+  sudo: yes
+  gather_facts: no
+  
+  vars:
+    proj: vhaskell
+  
+  tasks:
+  - name: install supervisord
+    action: pip name=supervisor
+  
+  - name: install supervisord init control
+    action: template src=./templates/init.supervisord.conf dest=/etc/init.d/supervisord
+  
+  - name: configure supervisord init control
+    action: shell sudo chmod +x /etc/init.d/supervisord && sudo update-rc.d supervisord defaults && sudo /etc/init.d/supervisord start
+  
+  - name: make vhaskell supervisor log dir
+    action: file dest=/var/log/vhaskell state=directory
+  
+  - name: install supervisord config
+    action: template src=./templates/supervisord.conf dest=/etc/supervisord.conf
+    notify:
+      - restart supervisord
+  
+  handlers:
+  - name: restart supervisord
+    action: service name=supervisord state=restarted enabled=yes
