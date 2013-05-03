@@ -1,0 +1,6 @@
+0.1.0
+-----
+
+- Started using Snap + Hakyll, switched to Python + Pyramid, then switched back again.
+- Cleaning up the build process with Hakyll and finalizing the first
+  generation design.
