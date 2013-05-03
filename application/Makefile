@@ -6,4 +6,4 @@ static:
 	cd ./hakyll/ && ./site build && ./site deploy
 
 prev:
-	bbounty
+	bbounty -p 8080
