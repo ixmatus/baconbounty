@@ -192,3 +192,8 @@
 10.0.2.2 - - [03/May/2013:22:39:21 +0000] "GET / HTTP/1.1" 200 - "http://localhost:8080/about" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.65 Safari/537.31"
 10.0.2.2 - - [03/May/2013:22:39:21 +0000] "GET /favicon.ico HTTP/1.1" 404 - - "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.65 Safari/537.31"
 10.0.2.2 - - [03/May/2013:22:39:21 +0000] "GET /favicon.ico HTTP/1.1" 404 - - "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.65 Safari/537.31"
+10.0.2.2 - - [05/May/2013:02:27:34 +0000] "GET / HTTP/1.1" 200 - - "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.65 Safari/537.31"
+10.0.2.2 - - [05/May/2013:02:27:35 +0000] "GET /static/css/default.css HTTP/1.1" 200 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.65 Safari/537.31"
+10.0.2.2 - - [05/May/2013:02:27:35 +0000] "GET /static/scripts/js/main.js HTTP/1.1" 200 - "http://localhost:8080/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.65 Safari/537.31"
+10.0.2.2 - - [05/May/2013:02:27:35 +0000] "GET /favicon.ico HTTP/1.1" 404 - - "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.65 Safari/537.31"
+10.0.2.2 - - [05/May/2013:02:27:35 +0000] "GET /favicon.ico HTTP/1.1" 404 - - "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_5) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/26.0.1410.65 Safari/537.31"

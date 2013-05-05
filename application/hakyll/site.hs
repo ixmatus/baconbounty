@@ -88,8 +88,8 @@ main = hakyllWith siteConfiguration $ do
                 >>= renderAtom (feedConfiguration title) feedCtx
     
     -- Index
-    match "index.tpl" $ do
-        route idRoute
+    match "index.md" $ do
+        route   $ setExtension ".tpl"
         compile $ do
             list <- postSummary tags "articles/*.md" $ fmap (take 3) . recentFirst
             let indexContext = constField "articles" list `mappend`

@@ -34,3 +34,6 @@
 [03/May/2013:22:38:47 +0000] Server.httpServe: START, binding to [http://0.0.0.0:8080/]
 [03/May/2013:22:41:03 +0000] Server.httpServe: SHUTDOWN
 [03/May/2013:22:41:03 +0000] Server.httpServe: BACKEND STOPPED
+[05/May/2013:02:27:31 +0000] Server.httpServe: START, binding to [http://0.0.0.0:8080/]
+[05/May/2013:02:27:53 +0000] Server.httpServe: SHUTDOWN
+[05/May/2013:02:27:53 +0000] Server.httpServe: BACKEND STOPPED

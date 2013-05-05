@@ -11,7 +11,7 @@ Vagrant::Config.run do |config|
   config.vm.host_name = "vhaskell"
   
   # Upgrading to cabal-install needs more than 512MB of RAM
-  config.vm.customize ["modifyvm", :id, "--memory", "512"]
+  config.vm.customize ["modifyvm", :id, "--memory", "2048"]
 
   # Typically you want to adjust to the CPU's on your machine
   config.vm.customize ["modifyvm", :id, "--cpus", "2"]
