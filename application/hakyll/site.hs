@@ -96,7 +96,7 @@ main = hakyllWith siteConfiguration $ do
                     field "tags" (\_ -> renderTagUl tags) `mappend`
                     defaultContext
 
-            getResourceBody
+            pandocCompiler
                 >>= applyAsTemplate indexContext
                 >>= loadAndApplyTemplate "templates/default.html" indexContext
                 >>= relativizeUrls

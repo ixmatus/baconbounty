@@ -73,26 +73,23 @@
         </div>
         <div class="span9">
         <section class="hero-unit zero-bottom-margin">
-  <h1 class="centered-text tk-museo-sans">Affiliate Management,<br /> Easy Payouts</h1>
+  <h1 class="centered-text tk-museo-sans">
+Affiliate Management,<br /> Easy Payouts
+</h1>
 </section>
 <section id="quebacon">
 
-# What is it?
-
+<h1 id="what-is-it">What is it?</h1>
 </section>
 <section id="dinero">
 
-***
-
-# How much does it cost?
-
+<hr />
+<h1 id="how-much-does-it-cost">How much does it cost?</h1>
 </section>
 <section id="mating">
 
-***
-
-# Integration
-
+<hr />
+<h1 id="integration">Integration</h1>
 </section>
 
 <script type="application/x-javascript">
@@ -100,6 +97,7 @@ $(document).ready(function() {
   $('.main-nav').scrollspy();
 });
 </script>
+
 
         </div>
       </div>
