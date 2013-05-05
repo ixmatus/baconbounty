@@ -9,7 +9,7 @@
     <meta name="keywords" content="bacon, bounty, affiliate, management, saas">
     <meta name="viewport" content="width=device-width">
     
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" href="./static/icons/favicon.ico">
     
     <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
     <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-responsive.min.css" rel="stylesheet">
@@ -52,44 +52,21 @@
     
     <section class="container-fluid">
       <div class="row-fluid">
-        <div id="main-nav-container" class="span2">
-          <ul id="main-nav" class="nav nav-tabs nav-stacked affix" itemscope itemtype="http://schema.org/ItemList">
-            <li itemscope itemtype="http://schema.org/WebPage">
-              <a itemprop="url" href="./#quebacon">
-                <i class="icon-minus nav-icon"></i><span itemprop="name">What is it!?</span>
-              </a>
-            </li>
-            <li itemscope itemtype="http://schema.org/WebPage">
-              <a itemprop="url" href="./#dinero">
-                <i class="icon-minus nav-icon"></i><span itemprop="name">Pricing</span>
-              </a>
-            </li>
-            <li itemscope itemtype="http://schema.org/WebPage">
-              <a itemprop="url" href="./#mating">
-                <i class="icon-minus nav-icon"></i><span itemprop="name">Integration</span>
-              </a>
-            </li>
-          </ul>
+        <div class="span2">
         </div>
-        <div class="span9">
-        <section class="hero-unit zero-bottom-margin">
-  <h1 class="centered-text tk-museo-sans">
-Affiliate Management,<br /> Easy Payouts
-</h1>
-</section>
-<section id="quebacon">
+        <div class="span8">
+        <section>
 
-<h1 id="what-is-it">What is it?</h1>
-</section>
-<section id="dinero">
-
+<h1 id="easy-integration.">Easy Integration.</h1>
+<h1 id="auto-payout.">Auto Payout.</h1>
 <hr />
-<h1 id="how-much-does-it-cost">How much does it cost?</h1>
-</section>
-<section id="mating">
-
+<p><strong>Bacon Bounty</strong> is a modern affiliate management and payout service for your business. We take the pain out of integrating with your business’ signup process (API? Check. JS? Check.) and make it easy to see how much your affiliates are earning for your business, how much you owe them, and paying them out (including automated W9 forms).</p>
 <hr />
-<h1 id="integration">Integration</h1>
+<h2 id="how-much-does-it-cost">How much does it cost?</h2>
+<p>We are in Beta right now, but I intend to make the pricing competitive.</p>
+<hr />
+<h2 id="integration">Integration</h2>
+<p>From WordPress plugins and shopping cart plugins to drop-in Javascript or a clean developer API, we’ve made it easy and fun for you to build or migrate an affiliate network for your business.</p>
 </section>
 
 <script type="application/x-javascript">
