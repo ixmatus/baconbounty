@@ -17,6 +17,14 @@
   - name: create db user
     action: postgresql_user db=$dbname password=$dbpassword name=$dbuser priv=ALL
   
+  - name: create vagrant db user
+    action: postgresql_user db=postgres password=vagrant name=vagrant priv=ALL
+  
+  - name: create postgres conf
+    action: template src=./templates/postgresql.conf dest=/etc/postgresql/9.1/main/postgresql.conf
+    notify:
+        - restart postgres
+  
   - name: create postgres hba conf
     action: template src=./templates/pg_hba.conf dest=/etc/postgresql/9.1/main/pg_hba.conf
     notify:
