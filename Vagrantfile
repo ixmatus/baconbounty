@@ -17,7 +17,7 @@ Vagrant::Config.run do |config|
   config.vm.customize ["modifyvm", :id, "--cpus", "2"]
 
   config.vm.forward_port 8080, 8080
-  config.vm.forward_port 1234, 1234
+  config.vm.forward_port 5432, 5432
 
   # Shared folders
   hosthome = "#{ENV['HOME']}/"
