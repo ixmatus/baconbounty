@@ -36,7 +36,7 @@ main = hakyllWith siteConfiguration $ do
     match ("static/css/default.hs") $ do
         route   $ setExtension "css"
         -- Make sure to CD into the dir so any other CSS modules will be imported properly by runghc
-        compile $ getResourceString >>= withItemBody (unixFilter "cd static/css && runghc" [])
+        compile $ getResourceString >>= withItemBody (unixFilter "runghc" ["-istatic/css"])
     
     -- Build tags
     tags <- buildTags "articles/*.md" (fromCapture "tags/*.tpl")
