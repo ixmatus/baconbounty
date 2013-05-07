@@ -2,12 +2,13 @@
 title: Bacon Bounty Affiliate Network Management
 ---
 
-<section>
+<section id="hero">
 
 # Easy Integration.
 # Auto Payout.
 
-***
+</section>
+<section>
 
 **Bacon Bounty** is a modern affiliate management and payout service for your business. We take the pain out of
 integrating with your business' signup process (API? Check. JS? Check.) and make it easy to see how much your affiliates
@@ -27,9 +28,3 @@ From WordPress plugins and shopping cart plugins to drop-in Javascript or a clea
 fun for you to build or migrate an affiliate network for your business.
 
 </section>
-
-<script type="application/x-javascript">
-$(document).ready(function() {
-  $('.main-nav').scrollspy();
-});
-</script>

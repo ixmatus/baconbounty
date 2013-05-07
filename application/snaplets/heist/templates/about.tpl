@@ -38,19 +38,19 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.5/require.min.js" data-main="main"></script>
   </head>
   <body itemscope itemtype="http://schema.org/WebPage" data-spy="scroll">
-    <header class="navbar navbar-fixed-top sspy">
-      <div class="navbar-inner">
-        <nav>
-          <span itemscope itemtype="http://schema.org/WebPage">
-            <a itemprop="url" class="brand" href="./">
-              <span itemprop="name">BaconBounty</span>
-            </a>
-          </span>
-        </nav>
+    <header class="row-fluid">
+      <div class="span2">
+      </div>
+      <div class="span8">
+        <span itemscope itemtype="http://schema.org/WebPage">
+          <a itemprop="url" class="brand" href="./">
+            <span itemprop="name">BaconBounty</span>
+          </a>
+        </span>
       </div>
     </header>
     
-    <section class="container-fluid">
+    <section id="content" class="container-fluid">
       <div class="row-fluid">
         <div class="span2">
         </div>

@@ -9,6 +9,7 @@ syntax: glob
 
 TAGS
 
+*log
 .vagrant
 _site
 _cache

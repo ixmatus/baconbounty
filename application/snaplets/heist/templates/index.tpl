@@ -38,28 +38,30 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.5/require.min.js" data-main="main"></script>
   </head>
   <body itemscope itemtype="http://schema.org/WebPage" data-spy="scroll">
-    <header class="navbar navbar-fixed-top sspy">
-      <div class="navbar-inner">
-        <nav>
-          <span itemscope itemtype="http://schema.org/WebPage">
-            <a itemprop="url" class="brand" href="./">
-              <span itemprop="name">BaconBounty</span>
-            </a>
-          </span>
-        </nav>
+    <header class="row-fluid">
+      <div class="span2">
+      </div>
+      <div class="span8">
+        <span itemscope itemtype="http://schema.org/WebPage">
+          <a itemprop="url" class="brand" href="./">
+            <span itemprop="name">BaconBounty</span>
+          </a>
+        </span>
       </div>
     </header>
     
-    <section class="container-fluid">
+    <section id="content" class="container-fluid">
       <div class="row-fluid">
         <div class="span2">
         </div>
         <div class="span8">
-        <section>
+        <section id="hero">
 
 <h1 id="easy-integration.">Easy Integration.</h1>
 <h1 id="auto-payout.">Auto Payout.</h1>
-<hr />
+</section>
+<section>
+
 <p><strong>Bacon Bounty</strong> is a modern affiliate management and payout service for your business. We take the pain out of integrating with your business’ signup process (API? Check. JS? Check.) and make it easy to see how much your affiliates are earning for your business, how much you owe them, and paying them out (including automated W9 forms).</p>
 <hr />
 <h2 id="how-much-does-it-cost">How much does it cost?</h2>
@@ -68,12 +70,6 @@
 <h2 id="integration">Integration</h2>
 <p>From WordPress plugins and shopping cart plugins to drop-in Javascript or a clean developer API, we’ve made it easy and fun for you to build or migrate an affiliate network for your business.</p>
 </section>
-
-<script type="application/x-javascript">
-$(document).ready(function() {
-  $('.main-nav').scrollspy();
-});
-</script>
 
 
         </div>

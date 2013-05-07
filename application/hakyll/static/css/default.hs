@@ -1,6 +1,8 @@
 {-# LANGUAGE OverloadedStrings #-}
 module Main where
 
+import Consts
+
 import Clay hiding (i, s, id)
 import Clay.Font as F
 import Data.Monoid
@@ -18,6 +20,7 @@ theStylesheet = do
     blockquote ? 
         do fontSizeCustom medium
     docMain
+    docHeader
     navBar
     mainNav
     docHeaders
@@ -26,6 +29,8 @@ theStylesheet = do
 
 docMain :: Css
 docMain = do
+    body ?
+        do backgroundColor minorColor3
     p ? do 
            fontSize (pct 160)
            fontFamily ["museo-sans", "Verdana"] [sansSerif]
@@ -33,6 +38,8 @@ docMain = do
            lineHeight (px 30)
            color "#4b4a42"
            letterSpacing (px 1)
+    "#hero" ?
+        do backgroundColor secondaryColor
     ".description" <> ".date" ?
         do color "#808080"
     ".container" ?
@@ -93,6 +100,11 @@ mainNav = do
         do paddingRight (px 5)
 --    "#main-nav" |> li |> "a:hover" ?
 --        do backgroundColor "#FFD973"
+
+docHeader :: Css
+docHeader = do
+    header ?
+        do backgroundColor primaryColor
 
 -- Header specific rules
 docHeaders :: Css
