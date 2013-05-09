@@ -4,8 +4,8 @@ title: Bacon Bounty Affiliate Network Management
 
 <section id="hero">
 
-# Easy Integration.
-# Auto Payout.
+# *Everyone* loves bacon.
+# You should bring more of it home.
 
 </section>
 <section>

@@ -57,8 +57,8 @@
         <div class="span8">
         <section id="hero">
 
-<h1 id="easy-integration.">Easy Integration.</h1>
-<h1 id="auto-payout.">Auto Payout.</h1>
+<h1 id="everyone-loves-bacon."><em>Everyone</em> loves bacon.</h1>
+<h1 id="you-should-bring-more-of-it-home.">You should bring more of it home.</h1>
 </section>
 <section>
 
