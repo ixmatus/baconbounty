@@ -18,7 +18,6 @@ dist*
 .ghci
 site_key.txt
 log/*
-*.cabal
 
 rsync.log
 
